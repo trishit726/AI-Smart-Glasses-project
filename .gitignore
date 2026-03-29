@@ -1,0 +1,6 @@
+brilliant_labs/
+venv/
+__pycache__/
+history/
+.env
+*.pyc
