@@ -128,6 +128,4 @@ python server.py
 
 ---
 
-<div align="center">
-  <p>Built with ❤️ and AI.</p>
-</div>
+
