@@ -4,3 +4,8 @@ __pycache__/
 history/
 .env
 *.pyc
+
+# Dashboard
+node_modules/
+dashboard/dist/
+dashboard/.vite/

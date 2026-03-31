@@ -128,4 +128,22 @@ python server.py
 
 ---
 
+## 🌐 3. Web Dashboard (Optional & Vercel-Ready)
 
+Want to show off what your Smart Glasses are seeing to others without them having to look at the tiny OLED screen? You can run the included React dashboard!
+
+Built with **Vite, React, Framer Motion, and [ShaderGradient](https://shadergradient.co)**, this dashboard features a stunning glassmorphic UI and an animated dark mode background.
+
+### Running Locally
+1. Navigate to the `dashboard/` directory.
+2. Install dependencies: `npm install`
+3. Start the dev server: `npm run dev`
+
+### 🚀 Deploying to Vercel
+The dashboard includes hardcoded mock history data. This means you can deploy it to Vercel independently to demonstrate the concept (since Vercel cloud servers cannot easily reach your local PC's Python backend).
+1. Commit and push your project to GitHub.
+2. Go to [Vercel](https://vercel.com/) and create a new project.
+3. Import your repository.
+4. During setup, change the **Root Directory** to `dashboard`.
+5. Vercel will auto-detect the Vite framework. Click **Deploy**.
+6. Once deployed, you will have a live URL to showcase the glowing *ShaderGradient* interface!
